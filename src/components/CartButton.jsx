@@ -14,6 +14,7 @@ const CartButton = () => {
       {count>0?<p className="count-item">{count}</p>:0}
       <button onClick={()=>{setCount(count+1)}}>+</button>
   </div>
-  </>;
-};
+
+  </>
+}
 export default CartButton
