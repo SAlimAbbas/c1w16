@@ -30,11 +30,8 @@ console.log(data)
                      <h2>{sellingPrice}</h2>
                      <p style={{textDecoration:"line-through",margin:"25px 18px"}}>M.R.P:{mrp}</p>
                    </div>
-                   <div>
-                    <button className={styles.btn} onClick={()=>{<CartButton/>}}>Add to Cart</button>
                     <CartButton/>
                    </div>
-               </div>
                ) 
             })
             }
