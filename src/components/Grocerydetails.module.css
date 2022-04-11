@@ -1,0 +1,16 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    padding-top: 10px;
+    gap: 20px;
+}
+.btn{
+    width: 90%;
+    height: 35px;
+    background-color: #008ecc;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+}

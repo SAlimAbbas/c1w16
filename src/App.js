@@ -4,6 +4,7 @@ import GroceryDetails from './components/Grocerydetails';
 
 function App() {
   return (
+    
     <div className="App">
      <GroceryDetails/>
     </div>
